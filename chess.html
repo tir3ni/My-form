@@ -1,0 +1,147 @@
+<html>
+
+    <head>
+        <title>Table Tennis Club</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <h1 align='center' class='blur'>Table Tennis Club</h1>
+        <p class='blur' align='center'>...where legends are made</p>
+
+        <div class='bounding'>
+            <div class='bol'>
+                <p style="margin-top:60px;"><em>We'll be needing some of your data, please fill the forms below :</em>
+                </p>
+
+                <a href="#" id="changecolor"></a>
+
+
+
+                <input type="text" class="textbox" id="lname" name="lname" placeholder='Last Name' required>
+
+
+                <br>
+
+                <input type="text" class="textbox" id="fname" name="fname" placeholder='First Name' required>
+
+                <br>
+                <br>
+
+                <input type="text" class="textbox" id="matno" name="matno" placeholder='Matriculation Number' required
+                    maxlength="10">
+
+                <br>
+                <br>
+
+                <input type="text" class="textbox" id="email" name="email" placeholder='Email Address' required>
+
+                <br>
+                <br>
+
+                <label for='dob'>Date of birth:</label>
+                <input type='date' class='textbox' id='dob' name='dob' min='1900-01-01' max='2023-10-19' required>
+
+                <br>
+
+
+                <p>Choose your gender:</p>
+
+                <input type="radio" id="gender" name="gender" value="Male">
+                <label for="gender">Male</label>
+
+                <br>
+
+                <input type="radio" id="sender" name="gender" value="Female">
+                <label for="sender">Female</label>
+
+                <br>
+                <br>
+
+                <label for="hall">Choose your hall of residence:</label>
+                <br>
+                <select name="hall" id="hall" class='pad'>
+                    <option value="daniel"></option>
+                    <option value="daniel">Daniel Hall</option>
+                    <option value="joseph">Joseph Hall</option>
+                    <option value="john">John Hall</option>
+                    <option value="paul">Paul Hall</option>
+                    <option value="peter">Peter Hall</option>
+                    <option value="dorcas">Dorcas Hall</option>
+                    <option value="lydia">Lydia Hall</option>
+                    <option value="deborah">Deborah Hall</option>
+                    <option value="mary">Mary Hall</option>
+                    <option value="esther">Esther Hall</option>
+                </select>
+
+                <br>
+                <br>
+
+                <input type="text" class="textbox" id="roomno" name="roomno" placeholder='Room Number' maxlength="4">
+
+
+
+                <p>What's your dominant hand?</p>
+
+                <input type="radio" id="left" name="hand" value="left">
+                <label for="left">Left</label>
+
+                <br>
+
+                <input type="radio" id="right" name='hand' value="right">
+                <label for="right">Right</label>
+
+
+                <p>Do you prefer playing with your forehand or backhand?</p>
+
+                <input type="radio" id="hand" name="bhand" value="left">
+                <label for="hand">Forehand</label>
+
+                <br>
+
+                <input type="radio" id="bhand" name='bhand' value="right">
+                <label for="bhand">Backhand</label>
+
+                <br>
+                <br>
+
+                <label for="level">Rate your skills:</label>
+                <br>
+                <select name="level" id="level" class='pad'>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                    <option value="expert">Expert</option>
+                </select>
+
+                <br>
+                <br>
+
+                <label for="sord">Do you prefer playing in singles or doubles:</label>
+                <br>
+                <select name="sord" id="sord" class='pad'>
+                    <option value="singles">Singles</option>
+                    <option value="doubles">Doubles</option>
+                </select>
+
+                <p>Do you prefer an atacking or defensive play style?</p>
+
+                <input type="radio" id="attack" name='att' value="attack">
+                <label for="attack">Attacking</label>
+
+                <br>
+
+                <input type="radio" id="defence" name='att' value="defence">
+                <label for="defence">Defensive</label>
+
+                <br>
+                <br>
+
+                <input type="submit" id="sub">
+
+            </div>
+        </div>
+
+    </body>
+
+</html>
